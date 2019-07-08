@@ -14,5 +14,6 @@ void destroyEntity(World* world, unsigned int entity);
 unsigned int createBackground(World* world, Colour c);
 unsigned int createTriangle(World* world, double radius, Position p);
 unsigned int createMovingTriangle(World* world, double radius, Position p);
+unsigned int createRandRigidBody(World* world, Position p);
 
 #endif 

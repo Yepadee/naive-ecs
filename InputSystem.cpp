@@ -72,7 +72,7 @@ void dragInput(World* world, double dt)
 
 	if (mousePressed(SDL_BUTTON_LEFT) && !touching)
 	{
-		createTriangle(world, 50, { (double)mouseX(), (double)mouseY() });
+		createRandRigidBody(world, { (double) mouseX(), (double) mouseY() });
 	}
 
 }
